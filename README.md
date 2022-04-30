@@ -14,6 +14,8 @@ Files and notes from the course "Deno Js - Beginner Guide".
 `import * as dateLib from 'https://deno.land/std@0.137.0/datetime/mod.ts';`
 `console.log(dateLib.dayOfYear(new Date()));`
 
+ ... or ...
+
 `import { dayOfYear } from 'https://deno.land/std@0.137.0/datetime/mod.ts';`
 
 - Get rid of error message concerning file-extension ".ts", when importing modules:
