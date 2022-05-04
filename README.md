@@ -18,6 +18,8 @@ Files and notes from the course "Deno Js - Beginner Guide".
 
 `import { dayOfYear } from 'https://deno.land/std@0.137.0/datetime/mod.ts';`
 
+- Run a module, which is considered as unstable, with unstable-flag: `deno run --unstable node_mod.ts`
+
 - Get rid of error message concerning file-extension ".ts", when importing modules:
 1. Create the `.vscode`-folder in the root-folder of the project.
 2. Create `settings.json`-file with the `.vscode`-folder.
@@ -26,4 +28,13 @@ Files and notes from the course "Deno Js - Beginner Guide".
   "deno.enable": true,
 }`
 4. Restart Visual Studio Code.
+
+- Start MongoDB: `brew services start mongodb-community@5.0`
+
+- Stop MongoDB: `brew services stop mongodb-community@5.0`
+
+- MongoDB Manual: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition
+
+
+
 
