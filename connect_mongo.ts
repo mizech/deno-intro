@@ -6,3 +6,7 @@ const client = new MongoClient();
 client.connect(MONGO_URL);
 
 console.log("mongoDb connected.");
+
+const db = client.database("deno");
+
+export default db;
