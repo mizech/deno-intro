@@ -1,14 +1,15 @@
 {
     "version": "0.2.0",
     "configurations": [
+        
         {
             "name": "Deno",
             "type": "node",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             "runtimeExecutable": "deno",
-            "runtimeArgs": ["run", "--inspect-brk", "-A", "<entry_point>"],
-            "port": 9229
+            // "runtimeArgs": ["run", "--inspect-brk", "-A", "--unstable", "main.ts"],
+            "port": 8080
         }
     ]
 }
