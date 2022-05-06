@@ -1,6 +1,6 @@
 # Deno Js - Beginner Guide
 
-Files and notes from the Udemy-course "[Deno Js - Beginner Guide]"(https://www.udemy.com/course/learn-and-understand-deno-future-nodejs-beginner-guide/).
+Files and notes from the Udemy-course [Deno Js - Beginner Guide](https://www.udemy.com/course/learn-and-understand-deno-future-nodejs-beginner-guide/).
 
 ## Notes
 - Display Deno-version: `deno -V`
