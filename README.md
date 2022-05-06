@@ -21,13 +21,13 @@ Files and notes from the Udemy-course [Deno Js - Beginner Guide](https://www.ude
 - Run a module, which is considered as unstable, with unstable-flag: `deno run --unstable node_mod.ts`
 
 - Get rid of error message concerning file-extension ".ts", when importing modules:
-1. Create the `.vscode`-folder in the root-folder of the project.
-2. Create `settings.json`-file with the `.vscode`-folder.
-3. Save the following snippet into `settings.json`:
-`{
-  "deno.enable": true,
-}`
-4. Restart Visual Studio Code.
+    1. Create the `.vscode`-folder in the root-folder of the project.
+    2. Create `settings.json`-file with the `.vscode`-folder.
+    3. Save the following snippet into `settings.json`:
+    `{
+       "deno.enable": true,
+     }`
+    4. Restart Visual Studio Code.
 
 - Start MongoDB: `brew services start mongodb-community@5.0`
 
