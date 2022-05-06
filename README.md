@@ -11,12 +11,15 @@ Files and notes from the Udemy-course [Deno Js - Beginner Guide](https://www.ude
 
 - Modul-import example:
 
+    1. Possibility:
+
     `import * as dateLib from 'https://deno.land/std@0.137.0/datetime/mod.ts';`
+    
     `console.log(dateLib.dayOfYear(new Date()));`
 
-... or ...
+    2. Possibility:
 
-     `import { dayOfYear } from 'https://deno.land/std@0.137.0/datetime/mod.ts';`
+      `import { dayOfYear } from 'https://deno.land/std@0.137.0/datetime/mod.ts';`
 
 - Run a module, which is considered as unstable, with unstable-flag: `deno run --unstable node_mod.ts`
 
