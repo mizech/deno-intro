@@ -11,13 +11,13 @@ Files and notes from the Udemy-course [Deno Js - Beginner Guide](https://www.ude
 
 - Modul-import example:
 
-    1. Possibility:
+    1. Option
 
     `import * as dateLib from 'https://deno.land/std@0.137.0/datetime/mod.ts';`
     
     `console.log(dateLib.dayOfYear(new Date()));`
 
-    2. Possibility:
+    2. Option:
 
       `import { dayOfYear } from 'https://deno.land/std@0.137.0/datetime/mod.ts';`
 
