@@ -35,6 +35,8 @@ Files and notes from the Udemy-course [Deno Js - Beginner Guide](https://www.ude
 
 - [MongoDB Manual](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition)
 
+- [Deno Manual](https://deno.land/manual@v1.21.2)
+
 
 
 
