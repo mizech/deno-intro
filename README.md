@@ -33,7 +33,7 @@ Files and notes from the course "Deno Js - Beginner Guide".
 
 - Stop MongoDB: `brew services stop mongodb-community@5.0`
 
-- MongoDB Manual: https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition
+- [MongoDB Manual](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-os-x/#install-mongodb-community-edition)
 
 
 
